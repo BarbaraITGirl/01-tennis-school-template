@@ -1,0 +1,108 @@
+=box-sizing()
+  box-sizing: border-box
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+
+/*Video background*/
+=msg-info()
+  background-color: $grey
+  color: $white
+  padding: 1rem
+  display: none
+  width: 90%
+  position: absolute
+  top: 50%
+  left: 0
+  right: 0
+  margin: auto
+
+
+=msg-info-x()
+  font-weight: bold
+  margin-left: 3rem
+  background-color: $white
+  color: $grey
+  padding: 0.4rem 0.6rem
+
+=msg-info-x-hover()
+  color: $white
+  background-color: $grey-light
+  cursor: pointer
+
+
+/*Media*/
+=media()
+  $screen-large: 960px
+  $screen-small: 350px
+  @media screen and (max-width: $screen-large)
+    .container
+      padding-right: 3rem
+      padding-left: 3rem
+
+  @media screen and (max-width: $screen-small)
+    .v-header
+      padding: 0
+      margin: auto
+      text-align: center
+
+    .header-content h1
+      font-size: 2.2rem
+      margin-bottom: 0
+
+    .header-content p
+      font-size: 1rem
+      padding-bottom: 2rem
+      display: block
+
+    span.x
+      position: relative
+      top: 0.2rem
+      left: -1.4rem
+
+    img
+      padding: 0.3rem 0 0.1rem 0
+
+    .side-left
+      padding: 0.8rem 0
+      font-size: 0.9rem
+
+    .side-right
+      padding: 0.8rem 0
+      font-size: 0.9rem
+
+    .side-right p
+      padding: 0.3rem 0 3rem 0
+
+    .btn-course
+      padding: 0.6rem 0
+      width: 100%
+      display: block
+
+    hr
+      display: none
+
+    #msg_info,#msg_info1,#msg_info2
+      background-color: $grey
+      color: $white
+      width: 87%
+      padding: 1rem
+      position: absolute
+      top: 60%
+      left: 0
+      right: 0
+      margin: auto
+
+    #msg_info .x,#msg_info1 .x,#msg_info2 .x
+      position: relative
+      top: 0.5rem
+
+    /*Contact*/
+    #contact button
+      width: 77%
+
+    /*Follow us*/
+    .social
+      width: 4rem
+      margin: auto
+      padding-bottom: 0.52rem
+

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-COMPATIBLE" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <link rel="stylesheet" type="text/css" href="css/flexboxgrid.css"/>
+    <link rel="stylesheet" type="text/css" href="plugin/aos/aos.css"/>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="plugin/aos/aos.js"></script>
+
+    <title>Tennis school</title>
+</head>
+
+<body>
+
+<!--VIDEO BACKGROUND start-->
+<header class="v-header container">
+    <div class="fullscreen-video-wrap">
+        <video autoplay="autoplay" loop="loop">
+            <source src="video/TennisCourt.mp4" type="video/mp4">
+            <source src="video/TennisCourt.webm" type="video/webm">
+            <source src="video/TennisCourt.ogv" type="video/ogg">
+        </video>
+    </div>
+    <div class="header-overlay"></div>
+    <div class="header-content">
+        <h1>Welcome!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iste magnam minus non reprehenderit voluptatibus.</p>
+        <a onclick="ShowMsg()" class="btn" href="#/">Join us</a>
+            <div id="msg_box">Visit us on our courts and meet our coaches
+                <span class="x" onclick="CloseMsg()">X</span>
+            </div>
+    </div>
+
+</header>
+<!--VIDEO BACKGROUND end-->
+
+<!--ABOUT US start-->
+<section class="section section-a">
+    <div class="container">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores aut blanditiis consectetur culpa cum deserunt distinctio, expedita, fugiat fugit illum nobis nulla odit pariatur quas quasi qui quidem reiciendis repellendus reprehenderit sequi, similique sit vero. Amet blanditiis consectetur cumque deserunt dolor doloremque dolorum ducimus earum eius error et impedit, ipsa laudantium magnam magni maiores minima nam necessitatibus nesciunt nisi quia quidem reprehenderit repudiandae tenetur ullam? Officia temporibus ullam velit?</p>
+    </div>
+</section>
+<!--ABOUT US end-->
+
+<!--TENNIS FOR KIDS start-->
+<section class="section section-b">
+    <div class="container">
+        <h1>Tennis for kids</h1>
+        <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 side-left">
+                <img data-aos="fade-up-right" data-aos-duration="2500" src="images/tennis_kids.jpeg" alt="tennis_kids"/>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 side-right">
+                    <p data-aos="fade-down-left" data-aos-duration="2500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam animi assumenda consectetur delectus dicta enim facilis id ipsam iste iusto modi mollitia natus officiis, optio perferendis quasi, quibusdam quis repudiandae sed sequi suscipit ullam ut vel vero voluptas voluptatum?</p>
+                    <a onclick="ShowInfo()" class="btn-course" href="#/" data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="60">Read more</a>
+                    <div id="msg_info">More information coming soon...
+                    <span class="x" onclick="CloseInfo()">X</span>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--TENNIS FOR KIDS end-->
+
+<hr data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="80">
+
+<!--TENNIS FOR ADULTS start-->
+<section class="section section-c">
+    <div class="container">
+        <h1>Tennis for adults</h1>
+        <div class="row test center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 side-right">
+                <p data-aos="fade-down-right" data-aos-duration="2500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam animi assumenda consectetur delectus dicta enim facilis id ipsam iste iusto modi mollitia natus officiis, optio perferendis quasi, quibusdam quis repudiandae sed sequi suscipit ullam ut vel vero voluptas voluptatum?</p>
+                <a onclick="ShowInfo1()" class="btn-course" href="#/" data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="60">Read more</a>
+                <div id="msg_info1">More information coming soon...
+                    <span class="x" onclick="CloseInfo1()">X</span>
+                </div>
+            </div>
+                <div class="side-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <img data-aos="fade-up-left" data-aos-duration="2500" src="images/tennis_adults.jpeg" alt="tennis_adults"/>
+                </div>
+        </div>
+    </div>
+</section>
+<!--TENNIS FOR ADULTS end-->
+
+<hr data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="80">
+
+<!--CONDITION TRAINING start-->
+<section class="section section-d">
+    <div class="container">
+        <h1>Conditioning training</h1>
+        <div class="row test center-xs center-sm center-md center-lg btn-right">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 side-left">
+                <img data-aos="fade-up-right" data-aos-duration="2500" src="images/running.jpg" alt="running"/>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 side-right">
+                <p data-aos="fade-down-left" data-aos-duration="2500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam animi assumenda consectetur delectus dicta enim facilis id ipsam iste iusto modi mollitia natus officiis, optio perferendis quasi, quibusdam quis repudiandae sed sequi suscipit ullam ut vel vero voluptas voluptatum?</p>
+                <a onclick="ShowInfo2()" class="btn-course" href="#/" data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="60">Read more</a>
+                <div id="msg_info2">More information coming soon...
+                    <span class="x" onclick="CloseInfo2()">X</span>
+                </div>
+            </div>
+    </div>
+    </div>
+</section>
+<!--CONDITION TRAINING end-->
+
+<section id="contact" class="section section-e">
+    <div class="container">
+        <h1>Keep in touch</h1>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <h4>Barbara</h4>
+                <ul>
+                    <li>Street 123</li>
+                    <li>10000 Zagreb</li>
+                    <li>Croatia</li>
+                    <li>barbara@mail.com</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h4>Newsletter</h4>
+                <p>Be be the first to know news and important information.</p>
+                <form>
+                    <input type="email" name="email" placeholder="Unesite e-mail"/>
+                    <button type="submit" name="button">Prijavite se za newsletter</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-f">
+    <div class="container">
+        <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h2>Follow us on social media</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <a href="#/"><img class="social" src="images/social/fb.png" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <a href="#/"><img class="social" src="images/social/inst.png" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <a href="#/"><img class="social" src="images/social/li.png" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <a href="#/"><img class="social" src="images/social/tw.png" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row center-xs center-sm center-md center-lg ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p>Copyright &copy; 2018 | <a class="a_tag" href="mailto:bkranjcic@gmail.com" target="_top"> BarbaraS</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    AOS.init({
+        disable: 'phone'
+    });
+</script>
+</body>
+
+</html>
